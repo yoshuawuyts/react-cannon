@@ -9,8 +9,7 @@
   "scripts": {
     "start": "node server/server.js"
   },
-  "browser": {
-  },
+  "browser": {},
   "browserify": {
     "transform": [
       "browserify-shim",
@@ -18,8 +17,7 @@
       "hbsfy"
     ]
   },
-  "browserify-shim": {
-  },
+  "browserify-shim": {},
   "devDependencies": {
     "browserify": "~3.36.0",
     "browserify-shim": "~3.4.1",
@@ -34,7 +32,7 @@
   },
   "dependencies": {
     "underscore": "*",
-    "react": "~0.10.0",
+    "react": "~0.14.0",
     "reactify": "^0.12.0",
     "es6-promise": "~1.0.0",
     "socket.io-client": "~0.9.16",
